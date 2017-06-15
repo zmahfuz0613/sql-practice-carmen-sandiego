@@ -3,6 +3,8 @@
 
 ![](https://i.giphy.com/13n8txR8c9UDHG.gif)
 
+:us::uk::jp::cn::it::es::ru::de::fr::kr:
+:us::uk::jp::cn::it::es::ru::de::fr::kr::us::uk::jp::cn::it::es::ru::de::fr::kr:
 
 We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and world-renowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands /queries you used and your answers to the clues - and figure out where Carmen's headed, so we can catch her and bring her in.
 
