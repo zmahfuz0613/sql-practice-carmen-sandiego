@@ -3,7 +3,7 @@
 
 ![](https://i.giphy.com/13n8txR8c9UDHG.gif)
 
-:earth_americas:   :us::uk::jp::cn::it::es::ru::de::fr::kr::us::uk::jp::cn::it::es::ru::de::fr::kr:   :earth_americas:
+:earth_americas:   :us::uk::jp::cn::it::es::ru::de::fr::kr: :earth_americas: :us::uk::jp::cn::it::es::ru::de::fr::kr:   :earth_americas:
 
 We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and world-renowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands /queries you used and your answers to the clues - and figure out where Carmen's headed, so we can catch her and bring her in.
 
@@ -44,7 +44,7 @@ psql -d carmen -f /your/path/to/this/file/starter-code/world.sql
 
 Then, use the clues below to create the appropriate SQL queries to help you find Carmen and then, tell us where she's heading!!
 
-### The Clues
+### The Clues :mag:
 
   - **Clue #1:** We recently got word that someone fitting Carmen Sandiego's description has been traveling through Southern Europe. She's most likely traveling someplace where she won't be noticed, so find the least populated country in Southern Europe, and we'll start looking for her there.
 
