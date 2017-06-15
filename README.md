@@ -10,12 +10,12 @@ We're going to use what we've learned already about searching with SQL commands,
 
 ### Setup/Instructions:
 
-#### starter code:
+#### Starter Code:
 - You've been given a `world.sql` file that you run to import a bunch of data into a SQL database (instructions below).
 - You've been given a `clues.sql` file that has clues for finding Carmen.  Read the clues and record your SQL queries in this file.
 
 
-#### getting started:
+#### Getting Started:
 
 From the command line, create a new database called `carmen` and populate it with the SQL found in `world.sql`
 
@@ -71,11 +71,39 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 ```
 
 
-## Additional Resources
-
-- [PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/)
-- [PostgreSQL official documentation](http://www.postgresql.org/docs/)
-
 ## Submission
 
 Homework is due by **11:00 tonight**! Remember to work with each other and go to TAs when you need it, but follow the [guidelines](https://git.generalassemb.ly/wdi-nyc-5-22/course-information/blob/master/how-to-queue-with-TAs.md) for queuing. Follow the normal [rules for homework submission](https://git.generalassemb.ly/wdi-nyc-5-22/course-information/blob/master/homework-policy.md), remember to include a link to your **repo**.
+
+---
+
+## Want to learn more!?
+
+I went a _little_ overboard listing extra resources. Don't feel like you need to go to all of these. Pick what you think you need more information on. Also, don't be limited by this list. There are **a lot** of resources on the web!
+
+#### If you want more on SQL, here are some places to go:
+
+- [PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/)
+- [PostgreSQL official documentation](http://www.postgresql.org/docs/)
+- [SQL JOIN](http://www.dofactory.com/sql/join)
+- [SQL Zoo](http://sqlzoo.net/) - _(SQL tutorial and practice problems)_
+- [Hacker Rank](https://www.hackerrank.com/domains/sql/select) - _(You will need an account, its free! Also a good place to practice algorithms)_
+
+#### If you want more on ERDs _(Entity Relationship Diagram)_:
+
+- [What is an Entity Relationship Diagram](https://www.lucidchart.com/pages/er-diagrams)
+- [ERDPlus](https://erdplus.com/) - _(A cool tool to make ERDs online!)_
+
+#### If you want to learn more about ES6:
+
+- [Core ES6 features](http://exploringjs.com/es6/ch_core-features.html#sec_from-var-to-const)
+- [Babel REPL](https://babeljs.io/repl/#?babili=false&evaluate=true&lineWrap=false&presets=es2015%2Creact%2Cstage-2&targets=&browsers=&builtIns=false&debug=false&code_lz=Q) - _(See how ES6 is compiled to ES5)_
+- [You Don't Know JS: ES6 & Beyond](https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20%26%20beyond#you-dont-know-js-es6--beyond) - _(More reading on ES6)_
+
+#### If you want to get a head start on what we are learning tomorrow:
+
+- [Documentation on JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+- [An Introduction to JavaScript Object Notation ](https://msdn.microsoft.com/en-us/library/bb299886.aspx)
+- [What is HTTP?](https://www.youtube.com/watch?v=kGOpY2J31pI) _(A video about some of the methods servers can use to talk to browsers using HTTP)_
+- [What is Ajax?](https://www.youtube.com/watch?v=3l13qGLTgNw)
+- [Download Postman](https://www.getpostman.com/postman) _(A tool we will be using to test API requests)_
