@@ -75,6 +75,7 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 ## Submission
 
 Homework is due by **11:00 Today!** Remember to work with each other and go to TAs when you need it, but follow the [guidelines](https://git.generalassemb.ly/wdi-nyc-8-28/Course-Information/blob/master/how-to-queue-with-TAs.md) for queuing. Follow the [rules for homework submission](https://git.generalassemb.ly/wdi-nyc-8-28/Course-Information/blob/master/homework.md) for creating your pull request to submit the homework.
+
 ---
 
 ## Want to learn more!? :book:
