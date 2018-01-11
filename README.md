@@ -1,9 +1,6 @@
-
 # Where in the World is...
 
 ![](https://i.giphy.com/13n8txR8c9UDHG.gif)
-
-:earth_americas:   :us::uk::jp::cn::it::es::ru::de::fr::kr: :earth_americas: :us::uk::jp::cn::it::es::ru::de::fr::kr:   :earth_americas:
 
 We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and world-renowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands /queries you used and your answers to the clues - and figure out where Carmen's headed, so we can catch her and bring her in.
 
@@ -12,9 +9,9 @@ We're going to use what we've learned already about searching with SQL commands,
 ### Setup/Instructions:
 
 #### Starter Code:
-- You've been given a `world.sql` file that you run to import a bunch of data into a SQL database (instructions below).
-- You've been given a `clues.sql` file that has clues for finding Carmen.  Read the clues and record your SQL queries in this file.
 
+* You've been given a `world.sql` file that you run to import a bunch of data into a SQL database (instructions below).
+* You've been given a `clues.sql` file that has clues for finding Carmen. Read the clues and record your SQL queries in this file.
 
 #### Getting Started:
 
@@ -29,12 +26,12 @@ CREATE DATABASE carmen;
 
 # Connect to carmen
 \c carmen
-\i world.SQL
+\i world.sql
 ```
 
 **OR**
 
-**Pro Tip:** You can do this in less steps with these commands.  _Note: this is done from the bash CLI and not the psql CLI_
+**Pro Tip:** You can do this in less steps with these commands. _Note: this is done from the bash CLI and not the psql CLI_
 
 ```bash
 createdb carmen
@@ -46,21 +43,21 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 
 ### The Clues :mag:
 
-  - **Clue #1:** We recently got word that someone fitting Carmen Sandiego's description has been traveling through Southern Europe. She's most likely traveling someplace where she won't be noticed, so find the least populated country in Southern Europe, and we'll start looking for her there.
+* **Clue #1:** We recently got word that someone fitting Carmen Sandiego's description has been traveling through Southern Europe. She's most likely traveling someplace where she won't be noticed, so find the least populated country in Southern Europe, and we'll start looking for her there.
 
-  - **Clue #2:** Now that we're here, we have insight that Carmen was seen attending language classes in this country's officially recognized language. Check our databases and find out what language is spoken in this country, so we can call in a translator to work with you.
+* **Clue #2:** Now that we're here, we have insight that Carmen was seen attending language classes in this country's officially recognized language. Check our databases and find out what language is spoken in this country, so we can call in a translator to work with you.
 
-  - **Clue #3:** We have new news on the classes Carmen attended: our gumshoes tell us she's moved on to a different country, a country where people speak *only* the language she was learning. Find out which nearby country speaks nothing but that language.
+* **Clue #3:** We have new news on the classes Carmen attended: our gumshoes tell us she's moved on to a different country, a country where people speak _only_ the language she was learning. Find out which nearby country speaks nothing but that language.
 
-  - **Clue #4:** We're booking the first flight out: maybe we've actually got a chance to catch her this time. There are only two cities she could be flying to in the country. One is named the *same* as the country – that would be too obvious. We're following our gut on this one; find out what other city in that country she might be flying to.
+* **Clue #4:** We're booking the first flight out: maybe we've actually got a chance to catch her this time. There are only two cities she could be flying to in the country. One is named the _same_ as the country – that would be too obvious. We're following our gut on this one; find out what other city in that country she might be flying to.
 
-  - **Clue #5:** Oh no, she pulled a switch: there are two cities with very similar names, but in totally different parts of the globe! She's headed to South America as we speak; go find a city whose name is *like* the one we were headed to, but doesn't end the same. Find out the city, and do another search for what country it's in. Hurry!
+* **Clue #5:** Oh no, she pulled a switch: there are two cities with very similar names, but in totally different parts of the globe! She's headed to South America as we speak; go find a city whose name is _like_ the one we were headed to, but doesn't end the same. Find out the city, and do another search for what country it's in. Hurry!
 
-  - **Clue #6:** We're close! Our South American agent says she just got a taxi at the airport, and is headed towards the capital! Look up the country's capital, and get there pronto! Send us the name of where you're headed and we'll follow right behind you!
+* **Clue #6:** We're close! Our South American agent says she just got a taxi at the airport, and is headed towards the capital! Look up the country's capital, and get there pronto! Send us the name of where you're headed and we'll follow right behind you!
 
-  - **Clue #7:** She knows we're on to her: her taxi dropped her off at the international airport, and she beat us to the boarding gates. We have one chance to catch her, we just have to know where she's heading and beat her to the landing dock.
+* **Clue #7:** She knows we're on to her: her taxi dropped her off at the international airport, and she beat us to the boarding gates. We have one chance to catch her, we just have to know where she's heading and beat her to the landing dock.
 
-  - **Clue #8** Lucky for us, she's getting cocky. She left us a note, and I'm sure she thinks she's very clever, but if we can crack it, we can finally put her where she belongs – behind bars.
+* **Clue #8** Lucky for us, she's getting cocky. She left us a note, and I'm sure she thinks she's very clever, but if we can crack it, we can finally put her where she belongs – behind bars.
 
 ```
   Our playdate of late has been unusually fun –
@@ -71,10 +68,19 @@ Then, use the clues below to create the appropriate SQL queries to help you find
   In a city of ninety-one thousand and now, eighty five.
 ```
 
+## Test your code before submission!
 
-## Submission
+1. You can make your changes in main.js, console.log your variables, save your file then in Terminal run "node main.js".
+2. You can make an account here: https://repl.it/, and test your code using this online text editor.
+3. If you setup node as your buildpack in Sublime Text, you can do "CMD+B" to run your code in Sublime Text.
 
-Homework is due by **11:00 Today!** Remember to work with each other and go to TAs when you need it, but follow the [guidelines](https://git.generalassemb.ly/wdi-nyc-8-28/Course-Information/blob/master/how-to-queue-with-TAs.md) for queuing. Follow the [rules for homework submission](https://git.generalassemb.ly/wdi-nyc-8-28/Course-Information/blob/master/homework.md) for creating your pull request to submit the homework.
+## Homework Submission
+
+* Homework is due at **11PM** on January 15th!
+* [Follow these instructions to submit your assignment](https://git.generalassemb.ly/wdi-jackalope/jackalope-students/blob/master/HOMEWORK.md)
+* [If you need help with your homework, check out the Student Resource Center!](https://git.generalassemb.ly/wdi-jackalope/jackalope-students/blob/master/SRC.md)
+
+# [An important note on plagiarism](https://git.generalassemb.ly/wdi-jackalope/jackalope-students/blob/master/PLAGIARISM.md)
 
 ---
 
@@ -84,13 +90,13 @@ There are **a lot** of resources on the web!
 
 #### If you want more on SQL, here are some places to go:
 
-- [PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/)
-- [PostgreSQL official documentation](http://www.postgresql.org/docs/)
-- [SQL JOIN](http://www.dofactory.com/sql/join)
-- [SQL Zoo](http://sqlzoo.net/) - _(SQL tutorial and practice problems)_
-- [Hacker Rank](https://www.hackerrank.com/domains/sql/select) - _(You will need an account, its free! Also a good place to practice algorithms)_
+* [PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/)
+* [PostgreSQL official documentation](http://www.postgresql.org/docs/)
+* [SQL JOIN](http://www.dofactory.com/sql/join)
+* [SQL Zoo](http://sqlzoo.net/) - _(SQL tutorial and practice problems)_
+* [Hacker Rank](https://www.hackerrank.com/domains/sql/select) - _(You will need an account, its free! Also a good place to practice algorithms)_
 
 #### If you want more on ERDs _(Entity Relationship Diagram)_:
 
-- [What is an Entity Relationship Diagram](https://www.lucidchart.com/pages/er-diagrams)
-- [ERDPlus](https://erdplus.com/) - _(A cool tool to make ERDs online!)_
+* [What is an Entity Relationship Diagram](https://www.lucidchart.com/pages/er-diagrams)
+* [ERDPlus](https://erdplus.com/) - _(A cool tool to make ERDs online!)_
