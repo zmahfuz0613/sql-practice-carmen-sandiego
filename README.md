@@ -15,7 +15,7 @@ We're going to use what we've learned already about searching with SQL commands,
 
 #### Getting Started:
 
-From the command line, create a new database called `carmen` and populate it with the SQL found in `world.sql`
+From the command line, `cd` into the `starter_codecreate a new database called `carmen` and populate it with the SQL found in `world.sql`
 
 ```
 # Enter psql
@@ -68,12 +68,6 @@ Then, use the clues below to create the appropriate SQL queries to help you find
   In a city of ninety-one thousand and now, eighty five.
 ```
 
-## Test your code before submission!
-
-1. You can make your changes in main.js, console.log your variables, save your file then in Terminal run "node main.js".
-2. You can make an account here: https://repl.it/, and test your code using this online text editor.
-3. If you setup node as your buildpack in Sublime Text, you can do "CMD+B" to run your code in Sublime Text.
-
 ## Homework Submission
 
 * Homework is due at **11PM**!
@@ -90,8 +84,3 @@ There are **a lot** of resources on the web!
 * [SQL JOIN](http://www.dofactory.com/sql/join)
 * [SQL Zoo](http://sqlzoo.net/) - _(SQL tutorial and practice problems)_
 * [Hacker Rank](https://www.hackerrank.com/domains/sql/select) - _(You will need an account, its free! Also a good place to practice algorithms)_
-
-#### If you want more on ERDs _(Entity Relationship Diagram)_:
-
-* [What is an Entity Relationship Diagram](https://www.lucidchart.com/pages/er-diagrams)
-* [ERDPlus](https://erdplus.com/) - _(A cool tool to make ERDs online!)_
