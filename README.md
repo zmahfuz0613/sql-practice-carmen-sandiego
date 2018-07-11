@@ -76,12 +76,7 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 
 ## Homework Submission
 
-* Homework is due at **11PM** on January 15th!
-* [Follow these instructions to submit your assignment](https://git.generalassemb.ly/wdi-jackalope/jackalope-students/blob/master/HOMEWORK.md)
-* [If you need help with your homework, check out the Student Resource Center!](https://git.generalassemb.ly/wdi-jackalope/jackalope-students/blob/master/SRC.md)
-
-# [An important note on plagiarism](https://git.generalassemb.ly/wdi-jackalope/jackalope-students/blob/master/PLAGIARISM.md)
-
+* Homework is due at **11PM**!
 ---
 
 ## Want to learn more!? :book:
