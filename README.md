@@ -15,7 +15,11 @@ We're going to use what we've learned already about searching with SQL commands,
 
 #### Getting Started:
 
-From the command line, `cd` into the `starter_codecreate a new database called `carmen` and populate it with the SQL found in `world.sql`
+From the command line, 
+
+1. `cd` into the `starter-code` 
+2. create a new database called `carmen` and 
+3. populate it with the SQL found in `world.sql`
 
 ```
 # Enter psql
@@ -31,7 +35,7 @@ CREATE DATABASE carmen;
 
 **OR**
 
-**Pro Tip:** You can do this in less steps with these commands. _Note: this is done from the bash CLI and not the psql CLI_
+**Pro Tip:** You can do this in fewer steps with these commands. _Note: this is done from the bash CLI and not the psql CLI_
 
 ```bash
 createdb carmen
