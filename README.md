@@ -73,7 +73,7 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 ```
 
 ## Homework Submission
-
+* Submit the `clues.sql` file with your SQL commands and do a PR. 
 * Homework is due at **11PM**!
 ---
 
