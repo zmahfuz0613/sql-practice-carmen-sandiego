@@ -72,11 +72,6 @@ Then, use the clues below to create the appropriate SQL queries to help you find
   In a city of ninety-one thousand and now, eighty five.
 ```
 
-## Homework Submission
-* Submit the `clues.sql` file with your SQL commands and do a PR. 
-* Homework is due at **11PM**!
----
-
 ## Want to learn more!? :book:
 
 There are **a lot** of resources on the web!
